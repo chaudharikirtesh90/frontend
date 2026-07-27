@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Frontend App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="card">
+        <p class="eyebrow">Welcome</p>
+        <h1>Build something simple and bright.</h1>
+        <p class="description">
+          This starter app includes a polished layout, responsive design, and a little
+          interactivity to get you moving quickly.
+        </p>
+        <div class="actions">
+          <label class="input-group" for="detailsInput">
+            <span>Enter details</span>
+            <input id="detailsInput" type="text" placeholder="Type here" />
+          </label>
+          <button id="startBtn">Start</button>
+          <button id="stopBtn">Stop</button>
+          <span id="counterLabel">Elapsed: 0s</span>
+        </div>
+        <p id="timeLabel" class="time"></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
