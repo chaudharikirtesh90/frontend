@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd /home/ec2-user/app
+cd /home/ubuntu/frontend_app
 
 echo "Starting the application..."
 nohup npm start > app.log 2>&1 &
